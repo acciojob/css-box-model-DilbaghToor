@@ -7,7 +7,6 @@
     border: 1px dashed black;
 }
 .boxc{
-    display: inline-block;
 	width: 300px;
     border: 1px solid black;
     padding: 20px;
@@ -18,7 +17,6 @@
     
 }
 .boxp{
-    display: inline-block;
     padding: 15px;
     background-color: lightblue;
 }
@@ -30,11 +28,12 @@
     text-align: right;
 }
 .boxb{
-   padding: 15px;
+   padding: 10px;
    background-color: blue;
 }
 .boxm{
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
+    margin: 20px; 
+}
+.box{
+	border: 2px solid black;
 }

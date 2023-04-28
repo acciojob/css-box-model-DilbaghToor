@@ -1,2 +1,39 @@
-
-/* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxz{
+    border: 1px dashed black;
+}
+.boxc{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+.boxc p{
+    
+}
+.boxp{
+    display: inline-block;
+    padding: 15px;
+    background-color: lightblue;
+}
+.boxp :first-child{
+    
+    text-align: left;
+}
+.boxp :nth-child(2){
+    text-align: right;
+}
+.boxb{
+   padding: 15px;
+   background-color: blue;
+}
+.boxm{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
